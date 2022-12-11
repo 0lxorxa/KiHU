@@ -1,0 +1,96 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
+
+body{
+    background-image: url(http://drive.google.com/uc?export=view&id=1tTNn9wF-bbbiyCUSf7dbyBtFPJuzfYqi);
+    /* background: linear-gradient(#001240,#D4E0FF); */
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.space{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.biggerspace{
+    margin-top: 300px;
+    margin-bottom: 150px;
+}
+
+.S1{
+
+    padding-top: 200px;
+}
+
+.S2{
+    padding-top:10px
+}
+.S2.relative{
+    position: top;
+}
+
+.S3{
+    padding-top: 100px;
+}
+
+.S4 {
+    padding-top: 200px;
+}
+
+.align-left { text-align: left; }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+.align-justify { text-align: justify; }
+
+.boxx {
+    display: flex;
+    opacity: 90%;
+    justify-content: center;
+	position: relative;
+	border-radius: 8px;
+	border: 1px solid white;
+	padding: 5px 5px;
+    background-color: beige;
+    min-width: 10px;
+	height: 50px;
+	margin-left: 200px;
+    margin-right: 200px;
+}
+
+#astro1{
+    text-align: left;
+}
+
+#astro2{
+    padding-top: 200px;
+    right: 05%;
+    text-align: right;
+}
+
+#astro3{
+    padding-top: 800px;
+    left: 5%;
+    text-align: right;
+}
+
+#reveal1 {
+    opacity: 0;
+    -webkit-transform: scale(0.8);
+         -moz-transform: scale(0.8);
+            -ms-transform: scale(0.8);
+             -o-transform: scale(0.8);
+                    transform: scale(0.8);
+    -webkit-transition: all 1s ease-in-out;
+         -moz-transition: all 1s ease-in-out;
+            -ms-transition: all 1s ease-in-out;
+             -o-transition: all 1s ease-in-out;
+                    transition: all 1s ease-in-out;
+}
+#reveal1.visible {
+    opacity: 1;
+    -webkit-transform: none;
+         -moz-transform: none;
+            -ms-transform: none;
+             -o-transform: none;
+                    transform: none;
+}
