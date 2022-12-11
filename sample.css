@@ -22,11 +22,16 @@ body{
 }
 
 .firsttext{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .S2{
-    padding-top:10px
+    padding-top:px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .S2.relative{
     position: top;
@@ -56,8 +61,8 @@ body{
     background-color: beige;
     min-width: 10px;
 	height: 50px;
-	margin-left: 200px;
-    margin-right: 200px;
+	margin-left: 40px;
+    margin-right: 40px;
 }
 
 #astro1{
