@@ -2,9 +2,8 @@
 
 body{
     background-image: url(http://drive.google.com/uc?export=view&id=1tTNn9wF-bbbiyCUSf7dbyBtFPJuzfYqi);
-    /* background: linear-gradient(#001240,#D4E0FF); */
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 
 }
 .space{
@@ -20,6 +19,10 @@ body{
 .S1{
 
     padding-top: 200px;
+}
+
+.firsttext{
+    
 }
 
 .S2{
