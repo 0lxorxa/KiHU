@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=500" />
 	<meta name="keywords" content="ScrollMagic, example, scrolling, attaching, scrollbar, tween, tweenmax" />
     <meta name="soralee"	content="Jan Paepke (www.janpaepke.de)" />
-    <title>KiHU Samplepage 1</title>
+    <title>index copy</title>
 
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
 
@@ -23,8 +23,7 @@
 	<script type="text/javascript" src="ScMag/assets/js/lib/gsap3/gsap.min.js"></script>
 	<script type="text/javascript" src="ScMag/scrollmagic/uncompressed/ScrollMagic.js"></script>
 	<script type="text/javascript" src="ScMag/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
-	<!-- <script type="text/javascript" src="ScMag/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
-	-->
+	<!-- <script type="text/javascript" src="ScMag/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>-->
 
 	<!--AOS Library-->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
@@ -34,16 +33,14 @@
 	<script>
         AOS.init();
     </script>
+	<style>
+		body{
+			background-image: url(capstonedesign/background1.png);
+   			background-repeat: no-repeat;
+    		background-size: 100%;
+		}
+	</style>
 
-	<!--
-	<div class = "content2" style = "text-align:center;">
-        <a href="turnjs4(책넘기기효과라이브러리)\EFFECTTIVE\article_2022-1.html" class="magazine_3">
-            data-aos="flip-left" data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            data-aos-anchor-placement="bottom-bottom"
-            alt="X" width=200px vspace = 30 hspace=30/>
-        </a>
-	-->
 </head>
 <body>
 	<script>
@@ -82,11 +79,11 @@
 
 					<div class="firsttext" >	
 						<div id="pin2" class="box2" style = "position: relative; z-index: 1; text-align: center;">
-                    		<img src="capstonedesign/ffaway.png" width=500px>
+                    		<img src="capstonedesign/ffaway.png" width=100%>
 							<script>
 							$(function () { // wait for document ready
 								// build scene
-								var scene = new ScrollMagic.Scene({triggerElement: "#pin2", duration: 1800})
+								var scene = new ScrollMagic.Scene({triggerElement: "#pin2", duration: 1000})
 												.setPin("#pin2")
 												.addIndicators({name: "2 (duration: 1500)"}) // add indicators (requires plugin)
 												.addTo(controller);
@@ -123,8 +120,9 @@
 					<div class="spacer s2"></div>
 					<div id="trigger1" class="spacer s0"></div>
 					<div id="pin1" class="box2">
-						<img src="capstonedesign/ttr-basic.png" width="300px">
-					</div>
+						<a href="Scene2.html">
+							<img src="capstonedesign/ttr-basic.png" width="300px"> 
+						</a>
 					<script>
 						$(function () { // wait for document ready
 							// build scene
@@ -157,7 +155,6 @@
 						});
 					</script>
                 </section>
-
 				</section>	
 -->
 				<section>

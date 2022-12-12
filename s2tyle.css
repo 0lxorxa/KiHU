@@ -1,5 +1,15 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
 
+.body{
+
+}
+
+.narration{
+    text-align: center;
+    margin-top: 150px;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    color: rgb(48, 48, 48);
+}
 
 .space{
     margin-top: 100px;
@@ -7,56 +17,41 @@
 }
 
 .biggerspace{
-    margin-top: 300px;
-    margin-bottom: 300px;
-}
-
-.S1{
-    padding-top: 100px;
-}
-
-.firsttext{
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    margin-top: 700px;
+    margin-bottom: 500px;
 }
 
 #pin{
     text-align: center;
-}
-#astro1{
-    text-align: left;
+
 }
 
-#astro2{
-    padding-top: 200px;
+#bubb1{
+    text-align: left;
+    margin-top: 530px;
+    left: 5%;
+}
+
+#bubb2{
+    margin-top: 530px;
+    padding-top: 130px;
     right: 05%;
     text-align: right;
 }
 
-#astro3{
-    padding-top: 300px;
+#bubb3{
+    margin-top: 530px;
+    padding-top: 230px;
     left: 5%;
+    text-align: left;
+}
+#bubb4{
+    margin-top: 530px;
+    padding-top: 380px;
     text-align: right;
+    right: 10%
 }
 
-.S2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.S2.relative{
-    position: top;
-}
-
-.S3{
-    padding-top: 00px;
-}
-
-.S4 {
-    padding-top: 200px;
-}
 
 .align-left { text-align: left; }
 .align-center { text-align: center; }
@@ -65,18 +60,17 @@
 
 .boxx {
     display: flex;
-    opacity: 80%;
+    opacity: 90%;
     justify-content: center;
 	position: relative;
 	border-radius: 8px;
 	border: 1px solid white;
 	padding: 5px 5px;
-    background-color: rgb(219, 150, 176);
+    background-color: beige;
     min-width: 10px;
 	height: 50px;
 	margin-left: 40px;
     margin-right: 40px;
-    font-family: 'Pretendard';
 }
 
 
