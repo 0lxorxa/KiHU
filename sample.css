@@ -17,13 +17,12 @@ body{
 }
 
 .S1{
-
     padding-top: 100px;
 }
 
 .firsttext{
+    position: relative;
     text-align: center;
-    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -46,6 +45,7 @@ body{
     left: 5%;
     text-align: right;
 }
+
 .S2{
     display: flex;
     justify-content: center;
