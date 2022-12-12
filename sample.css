@@ -3,7 +3,8 @@
 body{
     background-image: url(http://drive.google.com/uc?export=view&id=1tTNn9wF-bbbiyCUSf7dbyBtFPJuzfYqi);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
+
 
 }
 .space{
@@ -13,22 +14,36 @@ body{
 
 .biggerspace{
     margin-top: 300px;
-    margin-bottom: 150px;
+    margin-bottom: 300px;
 }
 
 .S1{
 
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .firsttext{
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+#astro1{
+    text-align: left;
+}
 
+#astro2{
+    padding-top: 200px;
+    right: 05%;
+    text-align: right;
+}
+
+#astro3{
+    padding-top: 500px;
+    left: 5%;
+    text-align: right;
+}
 .S2{
-    padding-top:px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +53,7 @@ body{
 }
 
 .S3{
-    padding-top: 100px;
+    padding-top: 00px;
 }
 
 .S4 {
@@ -65,21 +80,7 @@ body{
     margin-right: 40px;
 }
 
-#astro1{
-    text-align: left;
-}
 
-#astro2{
-    padding-top: 200px;
-    right: 05%;
-    text-align: right;
-}
-
-#astro3{
-    padding-top: 800px;
-    left: 5%;
-    text-align: right;
-}
 
 #reveal1 {
     opacity: 0;
