@@ -80,10 +80,10 @@
 				
 					<div id="trigger2" ></div>
 
-				<div class="firsttext" >	
-					<div id="pin2" class="box2" style = "position: relative; z-index: 1; text-align: center;">
-                    	<img src="capstonedesign/ffaway.png" width=500px>
-						<script>
+					<div class="firsttext" >	
+						<div id="pin2" class="box2" style = "position: relative; z-index: 1; text-align: center;">
+                    		<img src="capstonedesign/ffaway.png" width=500px>
+							<script>
 							$(function () { // wait for document ready
 								// build scene
 								var scene = new ScrollMagic.Scene({triggerElement: "#pin2", duration: 1800})
@@ -91,8 +91,8 @@
 												.addIndicators({name: "2 (duration: 1500)"}) // add indicators (requires plugin)
 												.addTo(controller);
 							});
-						</script>                
-					</div>
+							</script>                
+						</div>
 					</div>
 				</section>
 
@@ -111,7 +111,7 @@
 						var tween = TweenMax.to("#animate", 1.8, {scale: 0.2, repeat: 1, yoyo: true});
 
 						// build scene and set duration to window height
-						var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "300%"})
+						var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "200%"})
 										.setTween(tween)
 										.addIndicators() // add indicators (requires plugin)
 										.addTo(controller);
