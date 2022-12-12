@@ -3,10 +3,9 @@
 body{
     background-image: url(http://drive.google.com/uc?export=view&id=1tTNn9wF-bbbiyCUSf7dbyBtFPJuzfYqi);
     background-repeat: no-repeat;
-    background-size: 100% auto;
-
-
+    background-size: 100%;
 }
+
 .space{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -24,9 +23,13 @@ body{
 
 .firsttext{
     text-align: center;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
+}
+
+#pin{
+    text-align: center;
 }
 #astro1{
     text-align: left;
