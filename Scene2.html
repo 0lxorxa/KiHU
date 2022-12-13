@@ -3,15 +3,17 @@
 <ad>
     <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=500" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1" />
 	<meta name="keywords" content="ScrollMagic, example, scrolling, attaching, scrollbar, tween, tweenmax" />
     <meta name="soralee"	content="Jan Paepke (www.janpaepke.de)" />
     <title>scene2</title>
 
+    <script src="https://kit.fontawesome.com/06dc237eb7.js" crossorigin="anonymous"></script>
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic|Josefin+Slab:400,700italic' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" href="ScMag/assets/css/normalize.css" type="text/css">
 	<link rel="stylesheet" href="s2tyle.css" type="text/css">
+	<link rel="stylesheet" href="aoss.css" type="text/css">
 	<link rel="stylesheet" href="ScMag/assets/css/examples.css" type="text/css">
 
 
@@ -23,6 +25,7 @@
 	<script type="text/javascript" src="ScMag/assets/js/lib/gsap3/gsap.min.js"></script>
 	<script type="text/javascript" src="ScMag/scrollmagic/uncompressed/ScrollMagic.js"></script>
 	<script type="text/javascript" src="ScMag/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+    <script type="text/javascript" src="../../scrollmagic/uncompressed/plugins/animation.velocity.js"></script>
 	<!-- <script type="text/javascript" src="ScMag/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>-->
 
 	<!--AOS Library-->
@@ -39,10 +42,12 @@
             background-image: url(capstonedesign/background2.png);
             background-repeat: no-repeat;
             background-size: 100%;
+            background-color: #001240;
         }
         
     </style>
-</head>
+
+</ad>
 <body>
 	<script>
     // init controller
@@ -51,12 +56,21 @@
 
 	<div id="content-wrapper">
 		<div id="example-wrapper">
+            <div class="scrollContent/ttobbaki">
+                <mininav>
+                    <a href="index.html">
+                        <i class="fa-solid fa-backward" style="    position: fixed;"></i> 
+                    </a>
+                <navtext class="nav">
+                    <p>이전 이야기</p>
+                </navtext>
+                </mininav>    
                 
             <section class="s2-1">
                 <div class="narration">
-                    <p> 또바기는 매일 매일이 반복되는 삶이<br>
-                    슬슬 지겨워지기 시작했어요.<br><br>
-                    또바기는 언제쯤 세상 밖으로 나갈 수 있을까요?</p>
+                    <b>또바기는 매일 매일이 반복되는 삶이<br>
+                        슬슬 지겨워지기 시작했어요.<br><br>
+                        또바기는 언제쯤 세상 밖으로 나갈 수 있을까요?</b>
                 </div>
 
 					<div id="bubb1" style = "position: absolute; z-index: 0;">
@@ -88,76 +102,57 @@
 
                     <div id="trigger2" ></div>
                     <div id="pin2" class="box2" style = "position: absolute; z-index: 1; text-align: center;">
-                        <img src="http://drive.google.com/uc?export=view&id=1x6RLvNsiN6DS8keHLoZpXiPBmPcQ1YtN" width=63%>
-                    </div>	
+                        <img src="/capstonedesign/maincha2-1.png" width=63%>
+                    	
                     <script>
                             $(function () { // wait for document ready
                                 // build scene
-                                var scene = new ScrollMagic.Scene({triggerElement: "#pin2", duration: 1500})
+                                var scene = new ScrollMagic.Scene({triggerElement: "#pin2", duration: 700})
                                                 .setPin("#pin2")
                                                 .addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
                                                 .addTo(controller);
-                            });
-                    </script>  
+                                });
+                    </script>  </div>
+
+
+            </section>
+            </div>
+            <section class="s2-2">
+                <div class="biggerspace"></div>
+                
+                <div class="earthClean">
+                    <img src="capstonedesign/earthx2.png" width="400px"
+                    data-aos="example-out1" data-aos-duration="2000"
+                    data-aos-anchor-placement="bottom-bottom">
+                </div>
+
+                <div class="icon" style="color: rgb(186, 198, 160);" width="400px"
+                data-aos="example-in1" data-aos-duration="2000"
+                data-aos-anchor-placement="bottom-bottom">
+                    <div class="fa-solid fa-arrow-pointer" style="color: rgb(186, 198, 160); transform: rotateX(30deg);"></div>
+                    
+                </div>
+                <div class="announce"  style="color: rgb(186, 198, 160);" width="400px"
+                data-aos="example-in1" data-aos-duration="2000"
+                data-aos-anchor-placement="bottom-bottom">
+                    <p><b>또바기는 꿈꾸던 지구를<br>볼 수 있을까요?</b></p>
+                </div>
+                <div class="earthN" s >
+                    <img src="capstonedesign/earthn.png" width="400px"
+                    data-aos="example-in1" data-aos-duration="2000"
+                    data-aos-anchor-placement="bottom-bottom">
+
+  
+
+                    </script>
+                </div> 
+            </section>
 
                 <div class="biggerspace" style="position: absolute;"></div>
             </section>
 
-
-
-<!--
-            <div id="trigger2" ></div>
-            <div id="pin2" class="box2" style = "position: relative; z-index: 1; text-align: center;">
-                <img src="http://drive.google.com/uc?export=view&id=1x6RLvNsiN6DS8keHLoZpXiPBmPcQ1YtN" width=70%>
-            </div>	
-            <script>
-                    $(function () { // wait for document ready
-                        // build scene
-                        var scene = new ScrollMagic.Scene({triggerElement: "#pin2", duration: 1500})
-                                        .setPin("#pin2")
-                                        .addIndicators({name: "2 (duration: 0)"}) // add indicators (requires plugin)
-                                        .addTo(controller);
-                    });
-            </script>  
-          
-            <div class="bubbles">
-                <div class="bub1" style="z-index:0;">
-                    <img src="capstonedesign/bub1.png" width="120px" data-aos-duration="4000" data-aos="fade-down-left" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="top-bottom">
-                </div>					
-                
-                <div id="astro1" style = "position: relative; z-index: 0;">
-                    <img src="capstonedesign/bub1.png" width="300px"
-                    data-aos-duration="3000"
-                    data-aos="fade-down-right" data-aos-easing="ease-out-cubic"
-                    data-aos-anchor-placement="top-bottom">
-                </div>
-
-                <div id="bub2" style="position: absolute; z-index:0; text-align: right">
-                    <img src="capstonedesign/bub2.png" width="50%"
-                    data-aos-duration="4000"
-                    data-aos="zoom-in-right" data-aos-easing="ease-out-cubic"
-                    data-aos-anchor-placement="top-bottom">
-                </div>
-
-                <div id="bub3" style="position: absolute; z-index:0; text-align: left">
-                    <img src="capstonedesign/bub3.png" width="50%"
-                    data-aos-duration="4000"
-                    data-aos="zoom-in-right" data-aos-easing="ease-out-cubic"
-                    data-aos-anchor-placement="top-bottom">
-                </div>
-
-                <div id="bub4" style="position: absolute; z-index:0; text-align: right">
-                    <img src="capstonedesign/bub4.png" width="50%"
-                    data-aos-duration="4000"
-                    data-aos="zoom-in-right" data-aos-easing="ease-out-cubic"
-                    data-aos-anchor-placement="top-bottom">
-                </div>
-
-
-
-            </div>
-
-        </section>
-
-
--->
+        </div>
+    </div>
+           
+</body>
+</html>

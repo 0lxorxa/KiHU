@@ -1,14 +1,33 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
 
-.body{
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
 
+
+.fa-solid {
+    font-family: "Font Awesome 5 Free";
+    font-size: 25px;
+    top:1%;
+    color: white;
+    padding-left: 10px;
+}
+
+.nav{
+    font-family: 'Pretendard';
+    font-size: 13px;
+    top: 0%;
+    color: white;
+    padding-left: 41px;
+    position: fixed;
 }
 
 .narration{
     text-align: center;
     margin-top: 150px;
     font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
-    color: rgb(48, 48, 48);
+    color: rgb(73, 84, 107);
 }
 
 .space{
@@ -35,7 +54,7 @@
 #bubb2{
     margin-top: 530px;
     padding-top: 130px;
-    right: 05%;
+    right: 5%;
     text-align: right;
 }
 
@@ -58,19 +77,28 @@
 .align-right { text-align: right; }
 .align-justify { text-align: justify; }
 
-.boxx {
-    display: flex;
-    opacity: 90%;
-    justify-content: center;
-	position: relative;
-	border-radius: 8px;
-	border: 1px solid white;
-	padding: 5px 5px;
-    background-color: beige;
-    min-width: 10px;
-	height: 50px;
-	margin-left: 40px;
-    margin-right: 40px;
+.earthClean{
+    position: relative;
+    padding-top: 500px;
+    padding-left: 200px;
+}
+.icon{
+    position: relative;
+    left: 220px;
+    top: 300px;
+    color: rgb(235, 241, 222);
+}
+.announce{
+    position: relative;
+    left: 220px;
+    top: 300px;
+}
+
+.earthN{
+    margin:0px;
+    text-align: right;
+    position: relative;
+    left: -200px
 }
 
 
