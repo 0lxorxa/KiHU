@@ -69,6 +69,12 @@ html, body {
 .align-right { text-align: right; }
 .align-justify { text-align: justify; }
 
+.speak{
+    text-align: center;
+    color: rgb(219, 150, 176);
+    top: -100px;
+}
+
 .boxx {
     display: flex;
     opacity: 80%;
