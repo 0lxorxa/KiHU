@@ -1,4 +1,9 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
+/* 모바일 수평 스크롤 금지 */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    }
 
 
 .space{
@@ -24,6 +29,7 @@
 
 #pin{
     text-align: center;
+    align-items: center;
 }
 #astro1{
     text-align: left;
